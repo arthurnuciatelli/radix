@@ -15,6 +15,10 @@ https://apiradix.azurewebsites.net
 5. Clique com o botáo direito do mouse sobre a pasta wwwroot > View in Browser (*Google Chrome*)
 
 ## API
+  Obs: O caminho da api sugerido no exemplo seguiu a nomenclatura levando em consideração que a aplicação estará sendo executada localmente, na máquina de desenvolvimento. Em todo caso, foi liberada uma publicação no Azure para realização de testes, caso preferir, segue endereço do web site e api, respectivamente:
+  `https://apiradix.azurewebsites.net`
+  `https://apiradix.azurewebsites.net/api/evento`
+
 
 ### Get
 `https://localhost:{porta}/api/evento` - Retorna um array de objetos JSON no seguinte formato:<br>
