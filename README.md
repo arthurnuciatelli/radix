@@ -17,6 +17,7 @@ https://apiradix.azurewebsites.net
 ## API's disponíveis
 
 ### Get
+<p>
 `https://localhost:44361/api/evento` - Retorna um array de objetos JSON no seguinte formato:
  [
    {
@@ -27,6 +28,7 @@ https://apiradix.azurewebsites.net
     "status": "Processado ou Erro"
   }
 ]
+</p>
 
 ### Get/{id}
 `https://localhost:44361/api/evento/{id}` - Retorna um objeto JSON no seguinte formato, se acordo com o id solicitado:
