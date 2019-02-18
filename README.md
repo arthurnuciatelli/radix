@@ -17,8 +17,8 @@ https://apiradix.azurewebsites.net
 ## API's disponíveis
 
 ### Get
+`https://localhost:44361/api/evento` - Retorna um array de objetos JSON no seguinte formato:<br>
 <p>
-`https://localhost:44361/api/evento` - Retorna um array de objetos JSON no seguinte formato:
  [
    {
     "id": 1,
