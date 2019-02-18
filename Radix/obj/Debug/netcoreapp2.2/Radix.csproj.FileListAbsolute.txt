@@ -1,0 +1,14 @@
+D:\Projects\TesteRadix\Radix\Radix\bin\Debug\netcoreapp2.2\Radix.deps.json
+D:\Projects\TesteRadix\Radix\Radix\bin\Debug\netcoreapp2.2\Radix.runtimeconfig.json
+D:\Projects\TesteRadix\Radix\Radix\bin\Debug\netcoreapp2.2\Radix.runtimeconfig.dev.json
+D:\Projects\TesteRadix\Radix\Radix\bin\Debug\netcoreapp2.2\Radix.dll
+D:\Projects\TesteRadix\Radix\Radix\bin\Debug\netcoreapp2.2\Radix.pdb
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.csprojAssemblyReference.cache
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.csproj.CoreCompileInputs.cache
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.RazorAssemblyInfo.cache
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.RazorAssemblyInfo.cs
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.AssemblyInfoInputs.cache
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.AssemblyInfo.cs
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.RazorTargetAssemblyInfo.cache
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.dll
+D:\Projects\TesteRadix\Radix\Radix\obj\Debug\netcoreapp2.2\Radix.pdb

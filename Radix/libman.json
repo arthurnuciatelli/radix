@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "Chart.js@2.7.3",
+      "destination": "wwwroot/lib/Chart.js/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "angular.js@1.7.7",
+      "destination": "wwwroot/lib/angular.js/",
+      "files": [
+        "angular.min.js"
+      ]
+    }
+  ,
+{
+  "provider": "cdnjs",
+  "library": "jquery@3.3.1",
+  "destination": "wwwroot/lib/jquery/",
+  "files": [
+    "jquery.min.js"
+  ]
+}
+]
+}
