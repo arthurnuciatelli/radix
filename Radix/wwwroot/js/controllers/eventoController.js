@@ -1,8 +1,8 @@
-﻿angular.module("evento").controller("eventoController", function ($scope, $http, $timeout) {
-    $scope.app = "Controlador de Eventos";
-
+angular.module("evento").controller("eventoController", function ($scope, $http, $timeout) {
+    $scope.urlBase = "http://apiradix.azurewebsites.net/api/";
+    $scope.app = "Controlador de Eventos Azure";
     $scope.reload = function () {
-        $http.get("https://localhost:44361/api/evento")
+        $http.get(`${$scope.urlBase}evento`)
             .then(function (result) {
                 $scope.eventos = result.data.eventos;
                 $scope.agrupados = result.data.agrupados;
@@ -23,11 +23,11 @@
     $scope.reload();
     $scope.gravarEvento = function (evento) {
         evento.timestamp = parseInt(evento.timestamp);
-        $http.post("https://localhost:44361/api/evento", evento)
+        $http.post(`${$scope.urlBase}evento`, evento)
             .then(function (result) {
                 delete $scope.evento;
             });
-    }
+    };
 
     var ConstruirGrafico = function (arraySensor, arrayValor) {
         var ctx = document.getElementById('myChart').getContext('2d');
@@ -50,5 +50,5 @@
                 }
             }
         });
-    }
+    };
 });
