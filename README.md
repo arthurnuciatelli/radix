@@ -18,7 +18,7 @@ https://apiradix.azurewebsites.net
 
 ### Get
 `https://localhost:44361/api/evento` - Retorna um array de objetos JSON no seguinte formato:<br>
-<p>
+```json
 [
     {
         "id": 1,
@@ -28,35 +28,39 @@ https://apiradix.azurewebsites.net
         "status": "Processado ou Erro"
     }
 ]
-</p>
+```
 
 ### Get/{id}
-`https://localhost:44361/api/evento/{id}` - Retorna um objeto JSON no seguinte formato, se acordo com o id solicitado:
+`https://localhost:44361/api/evento/{id}` - Retorna um objeto JSON no seguinte formato, se acordo com o id solicitado:<br>
+ ```json
  {
-  "id": 1,
-  "timestamp": 1550456195,
-  "tag": "brasil.sudeste.sensor01",
-  "valor": "",
-  "status": "Erro"
+    "id": 1,
+    "timestamp": 1550456195,
+    "tag": "brasil.sudeste.sensor01",
+    "valor": "",
+    "status": "Erro"
 }
-Caso não encontre o id informado, retorna um objeto JSON no seguinte formato:
+```
+Caso não encontre o id informado, retorna um objeto JSON no seguinte formato:<br>
+```json
 {
     "type": "https://tools.ietf.org/html/rfc7231#section-6.5.4",
     "title": "Not Found",
     "status": 404,
     "traceId": "8000001e-0002-ff00-b63f-84710c7967bb"
 }
-
+```
 ### Post
-`https://localhost:44361/api/evento` - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:
- 
+`https://localhost:44361/api/evento` - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:<br>
+ ```json
  { 
-  "timestamp": 1550456195,
-  "tag": "brasil.sudeste.sensor01",
-  "valor": "23",
+    "timestamp": 1550456195,
+    "tag": "brasil.sudeste.sensor01",
+    "valor": "23",
 }
-
-E retorna um objeto JSON com o seguinte formato:
+```
+E retorna um objeto JSON com o seguinte formato:<br>
+```json
 {
     "id": 2,
     "timestamp": 1550351789,
@@ -64,6 +68,4 @@ E retorna um objeto JSON com o seguinte formato:
     "valor": "2",
     "status": "Processado"
 }
-
-### Post
-`https://localhost:44361/api/evento` - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:
+```
