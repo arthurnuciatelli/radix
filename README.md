@@ -17,7 +17,7 @@ https://apiradix.azurewebsites.net
 ## API's disponíveis
 
 ### Get
-https://localhost:44361/api/evento - Retorna um array de objetos JSON no seguinte formato:
+`https://localhost:44361/api/evento` - Retorna um array de objetos JSON no seguinte formato:
  [
    {
     "id": 1,
@@ -29,7 +29,7 @@ https://localhost:44361/api/evento - Retorna um array de objetos JSON no seguint
 ]
 
 ### Get/{id}
-https://localhost:44361/api/evento/{id} - Retorna um objeto JSON no seguinte formato, se acordo com o id solicitado:
+`https://localhost:44361/api/evento/{id}` - Retorna um objeto JSON no seguinte formato, se acordo com o id solicitado:
  {
   "id": 1,
   "timestamp": 1550456195,
@@ -46,7 +46,7 @@ Caso não encontre o id informado, retorna um objeto JSON no seguinte formato:
 }
 
 ### Post
-https://localhost:44361/api/evento - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:
+`https://localhost:44361/api/evento` - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:
  
  { 
   "timestamp": 1550456195,
@@ -64,4 +64,4 @@ E retorna um objeto JSON com o seguinte formato:
 }
 
 ### Post
-https://localhost:44361/api/evento - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:
+`https://localhost:44361/api/evento` - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:
