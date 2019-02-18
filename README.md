@@ -19,14 +19,14 @@ https://apiradix.azurewebsites.net
 ### Get
 `https://localhost:44361/api/evento` - Retorna um array de objetos JSON no seguinte formato:<br>
 <p>
- [
-   {
-    "id": 1,
-    "timestamp": 1550456195,
-    "tag": "brasil.sudeste.sensor01",
-    "valor": "23",
-    "status": "Processado ou Erro"
-  }
+[
+    {
+        "id": 1,
+        "timestamp": 1550456195,
+        "tag": "brasil.sudeste.sensor01",
+        "valor": "23",
+        "status": "Processado ou Erro"
+    }
 ]
 </p>
 
