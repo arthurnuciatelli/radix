@@ -18,7 +18,7 @@ angular.module("evento").controller("eventoController", function ($scope, $http,
 
         $timeout(function () {
             $scope.reload();
-        }, 10000);
+        }, 1000);
     };
     $scope.reload();
     $scope.gravarEvento = function (evento) {
