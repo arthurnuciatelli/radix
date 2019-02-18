@@ -14,10 +14,10 @@ https://apiradix.azurewebsites.net
 4. Pressione ctrl + f5 para executar a api em modo Sem Debug
 5. Clique com o botáo direito do mouse sobre a pasta wwwroot > View in Browser (*Google Chrome*)
 
-## API's disponíveis
+## API
 
 ### Get
-`https://localhost:44361/api/evento` - Retorna um array de objetos JSON no seguinte formato:<br>
+`https://localhost:{porta}/api/evento` - Retorna um array de objetos JSON no seguinte formato:<br>
 ```json
 [
     {
@@ -31,7 +31,7 @@ https://apiradix.azurewebsites.net
 ```
 
 ### Get/{id}
-`https://localhost:44361/api/evento/{id}` - Retorna um objeto JSON no seguinte formato, se acordo com o id solicitado:<br>
+`https://localhost:{porta}/api/evento/{id}` - Retorna um objeto JSON no seguinte formato, se acordo com o id solicitado:<br>
  ```json
  {
     "id": 1,
@@ -51,7 +51,7 @@ Caso não encontre o id informado, retorna um objeto JSON no seguinte formato:<b
 }
 ```
 ### Post
-`https://localhost:44361/api/evento` - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:<br>
+`https://localhost:{porta}/api/evento` - Inseri um registro de sensor. Deve se utilizar o seguinte formato JSON, no corpo:<br>
  ```json
  { 
     "timestamp": 1550456195,
