@@ -18,8 +18,8 @@ https://apiradix.azurewebsites.net
 <p>
   O caminho da api sugerido no exemplo seguiu a nomenclatura levando em consideração que a aplicação estará sendo executada localmente, na máquina de desenvolvimento. Em todo caso, foi liberada uma publicação no Azure para realização de testes, caso preferir, segue endereço do web site e api, respectivamente:
  </p>
-  <br>`https://apiradix.azurewebsites.net`
-  <br>`https://apiradix.azurewebsites.net/api/evento`
+  <br>https://apiradix.azurewebsites.net
+  <br>https://apiradix.azurewebsites.net/api/evento
 
 
 ### Get
